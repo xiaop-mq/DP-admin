@@ -4,7 +4,9 @@ export default class Header extends Component {
     
     render() { 
         return ( 
-            <div>Home</div>
+            <div className="home">
+                欢迎使用DP后台可视化管理系统
+            </div>
          );
     }
 }
